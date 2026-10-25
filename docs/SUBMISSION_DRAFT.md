@@ -42,8 +42,8 @@ No general accuracy, automatic repair, zero-cost generation or measured savings 
 ## Required items on the competition page (checked 2026-10-25)
 - GitHub repo with app code, workflow files, open-source license and local run instructions:
   public at https://github.com/junco3/motion-guard (LICENSE Apache-2.0, README, workflows/).
-- Demo video, two minutes max: v2 is 115 s; public upload not done yet.
+- Demo video, two minutes max: v3 is 119 s; public upload not done yet.
 - A link to try it (optional, encouraged): https://junco33-motion-guard.hf.space
 - Social post linking the demo video with #OpenSourceHiggsfield: draft above; not posted.
-- Other tools and models must be explained in the demo video: v2 names LTX and the OpenAI image
-  tool; the pose estimators (RTMPose body, RTMW hands) are not named in the video.
+- Other tools and models must be explained in the demo video: v3 names ComfyUI, LTX, RTMPose (body),
+  RTMW (fingers) and the OpenAI image tool, and closes with the Space and GitHub links.

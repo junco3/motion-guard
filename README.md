@@ -11,7 +11,7 @@ not automatic motion repair or a general video-quality score.
 Try it: https://junco33-motion-guard.hf.space (hosted build; saved runs open without
 charge, live generation runs on the owner's Comfy account).
 
-Demo: <FINAL_PUBLIC_DEMO_URL> (115-second v2 with live app recordings and English narration;
+Demo: <FINAL_PUBLIC_DEMO_URL> (119-second v3 with live app recordings and English narration;
 public upload by the owner pending).
 
 ## Why
