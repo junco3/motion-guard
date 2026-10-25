@@ -22,7 +22,7 @@ animation, so it has a ground truth: it compares the generated clip with that re
 names the seconds that drift (and the joints, when clearly observed), and holds the expensive Stage-2 render
 when a draft fails. Open source, built on Comfy Developer Platform with LTX-2.5.
 #OpenSourceHiggsfield
-Demo: <FINAL_PUBLIC_DEMO_URL>
+Demo: https://youtu.be/UkS-lCaiJhI
 Try it: https://junco33-motion-guard.hf.space
 Source: https://github.com/junco3/motion-guard
 
@@ -36,13 +36,13 @@ Official deadline (read on the competition page 2026-10-25): October 30, 2026, 9
 Before posting: character provenance is recorded in docs/asset-provenance.json; review latest
 demo and captions, replace both URLs with working public downloads, verify required
 social wording/tags on the official form, select eligible categories and complete
-the submission form. Public posting and submission have not been performed.
+the submission form. Demo upload, social post (https://www.instagram.com/p/De6XV8rsOyM/) and the submission form were completed by the owner on 2026-10-25.
 No general accuracy, automatic repair, zero-cost generation or measured savings claim.
 
 ## Required items on the competition page (checked 2026-10-25)
 - GitHub repo with app code, workflow files, open-source license and local run instructions:
   public at https://github.com/junco3/motion-guard (LICENSE Apache-2.0, README, workflows/).
-- Demo video, two minutes max: v3 is 119 s; public upload not done yet.
+- Demo video, two minutes max: v3 is 119 s; public on YouTube at https://youtu.be/UkS-lCaiJhI.
 - A link to try it (optional, encouraged): https://junco33-motion-guard.hf.space
 - Social post linking the demo video with #OpenSourceHiggsfield: draft above; not posted.
 - Other tools and models must be explained in the demo video: v3 names ComfyUI, LTX, RTMPose (body),
