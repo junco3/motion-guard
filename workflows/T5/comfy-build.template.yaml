@@ -1,0 +1,68 @@
+schema: comfy-build/1
+name: motion-guard-t3
+description: Motion Guard source recipe. Replace required licensed-model sources before
+  build; not an execution authorization.
+definition:
+  baseComfyVersion: 8f04fd6ecf4a548937971e840af2a985529fab76
+  models:
+  - filename: ltx-2.5-22b-distilled-transformer-bf16.safetensors
+    sha256: 31eb3cad89b9e54e99dd3baf286f70825ac4f6c660a70d9184d895be76d7bff4
+    sizeBytes: 42018190584
+    sourceUri: https://huggingface.co/unsloth/LTX-2.5-GGUF/resolve/ac3c540c6025903784336e99b2dc179385c4c3b7/diffusion_models/ltx-2.5-22b-distilled-transformer-bf16.safetensors
+    type: diffusion_models
+  - filename: ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors
+    sha256: eb5a71fe4068ee87ccdb1c3aa635e547ca76bd2d30ae20ae889f2c325c0677e8
+    sizeBytes: 995778752
+    sourceUri: https://huggingface.co/unsloth/LTX-2.5-GGUF/resolve/ac3c540c6025903784336e99b2dc179385c4c3b7/latent_upscale_models/ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors
+    type: latent_upscale_models
+  - filename: ltx-2.3-22b-ic-lora-union-control-ref0.5.safetensors
+    sha256: a1b888a87f661d27f08b394ae559e8e1050be33900bcc36a5cdf659e48f88d18
+    sizeBytes: 654465352
+    sourceUri: https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control/resolve/main/ltx-2.3-22b-ic-lora-union-control-ref0.5.safetensors
+    type: loras
+  - filename: rtmpose-m_simcc-body7_pt-body7_420e-256x192-e48f03d0_20230504.zip
+    sha256: f7fbb6c5c11a1bb70f3d445e4ddec5d144ea89ad5649c081ef976f9b24a0b741
+    sourceUri: https://huggingface.co/Tau-J/RTMPose/resolve/cd4d7095f5cfc9cfc4f46289bee91ea4a1e1d9fd/rtmposev1/onnx_sdk/rtmpose-m_simcc-body7_pt-body7_420e-256x192-e48f03d0_20230504.zip
+    type: motion_guard
+  - filename: rtmw-dw-l-m_simcc-cocktail14_270e-256x192_20231122.zip
+    sha256: a6d08a575c9d8b8da7ce6c13e1c7341047fca35594a6d35de04b739eba51139c
+    sizeBytes: 120002068
+    sourceUri: https://download.openmmlab.com/mmpose/v1/projects/rtmw/onnx_sdk/rtmw-dw-l-m_simcc-cocktail14_270e-256x192_20231122.zip
+    type: motion_guard
+  - filename: yolox_m_8xb8-300e_humanart-c2c7a14a.zip
+    sha256: a000224fd8ba283202bc62d4a5fcdfe353adb9f468777dbac1ea2ada2093adde
+    sourceUri: https://huggingface.co/Tau-J/RTMPose/resolve/cd4d7095f5cfc9cfc4f46289bee91ea4a1e1d9fd/rtmposev1/onnx_sdk/yolox_m_8xb8-300e_humanart-c2c7a14a.zip
+    type: motion_guard
+  - filename: gemma4-12b-with-proj-ltx-2.5-bf16.safetensors
+    sha256: ef7243612fdae7a75cb4d5cee9433e81380675fb6c213bd98ae74a9cd16561d1
+    sizeBytes: 26263858182
+    sourceUri: https://huggingface.co/unsloth/LTX-2.5-GGUF/resolve/ac3c540c6025903784336e99b2dc179385c4c3b7/text_encoders/gemma4-12b-with-proj-ltx-2.5-bf16.safetensors
+    type: text_encoders
+  - filename: ltx-2.5-audio-vae-bf16.safetensors
+    sha256: c52733d37f6a7fb7949c3dc0fb468c6cb2169e4d836983a73babb9f0d54837a5
+    sizeBytes: 364866540
+    type: vae
+    sourceUri: REQUIRED_ACCOUNT_MODEL_SOURCE/ltx-2.5-audio-vae-bf16.safetensors
+  - filename: ltx-2.5-video-vae-bf16.safetensors
+    sha256: 847e14ca7f3355debca0cea4eaa24ac0fbcdf0061da054ac89ca638a869ddba3
+    sizeBytes: 1472223346
+    type: vae
+    sourceUri: REQUIRED_ACCOUNT_MODEL_SOURCE/ltx-2.5-video-vae-bf16.safetensors
+  customNodes:
+  - name: ComfyUI-LTXVideo
+    source: local
+    localPath: custom_nodes/ComfyUI-LTXVideo
+  - name: MotionGuard
+    source: local
+    localPath: custom_nodes/MotionGuard
+  pipDependencies: 'numpy==2.4.6
+
+    rtmlib==0.0.16
+
+    onnxruntime==1.31.0
+
+    opencv-python-headless==5.0.0.93
+
+    imageio-ffmpeg==0.6.0
+
+    '

@@ -1,0 +1,8 @@
+{
+  "release_id": "REPLACE_WITH_YOUR_RELEASE_UUID",
+  "evidence": "data/gen/YOUR_RUN/deployment-snapshot.json",
+  "sha256": "REPLACE_WITH_SNAPSHOT_SHA256",
+  "storage_monthly_cents": null,
+  "credits_per_cent": 2.11,
+  "catalog_credits_per_gb_month": null
+}

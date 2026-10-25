@@ -1,0 +1,27 @@
+{
+  "source_only": true,
+  "weights_included": false,
+  "files": {
+    "__init__.py": "7409aee58f7fe18040f921b97c28321d8329cfbdde0c3df51d01d3cfa9241c33",
+    "stage_gate.py": "947c3f2a24706d9cd9360e992ae92d45219ea521010924529463fe68341296e5",
+    "draft_bridge.py": "f5b32372c715fc9c1d58cb3cff09a4cc3e5634f8d2f968ed5b066415e9b72358",
+    "stage_audit.py": "b940a470c0bde3f28cdb934ba3ec1a39728645f4de731360836be01f5b3cbeec",
+    "core/motionguard_core/__init__.py": "a2dc9a543f503e2d82eec45a456e8a4640dd8cb69b898ca42458c70d76fc84f6",
+    "core/motionguard_core/cli.py": "d63311d4d03553f6b86247bbfc88ae7e44e81f913cfdf57d5c898464125675a3",
+    "core/motionguard_core/compare.py": "a444a9ff70f535541eae2c5b38240d597f245f0ffc5b79dadbf671d86c8f23a2",
+    "core/motionguard_core/estimator.py": "2828131b6b8b980737048f6824b392a349fc3eed1b1c3466279bf3231437414a",
+    "core/motionguard_core/framing_diagnostic.py": "bd38446a1a08ac1f2b6b69d9c02d93cf9d143d5cadc03956dae437c786a8d51e",
+    "core/motionguard_core/gate.py": "3572811243277e8b9fbda6e16437ff33c98e60ca5656b4a2b9a6e13371f9dc95",
+    "core/motionguard_core/latent_repair.py": "8dc2cb42c11338239ca6c1781ce3e5fc24a6788ba71d540cd2c6afca093bda28",
+    "core/motionguard_core/observation_candidate.py": "b382f934f7cd7b89cf672fd87d62141438af715777a99ff066e0dbcd5601a7d1",
+    "core/motionguard_core/reference_io.py": "424871dad64c8be895ae46ec576a0f5d78641b0dd4cbb82e29330ce12472104b",
+    "core/motionguard_core/report.py": "3c81485142a574b0194da18ef42549eb029a37ac0ed671c31b8915eec41ba9d8",
+    "core/motionguard_core/report_artifact.py": "ae9e1f5b37e4f0452f467e9f5422d3d4038cb23f6c78cbd7ce38bcdcf48c8494",
+    "core/motionguard_core/slow_motion.py": "d79a52c0d233942cf5a66fbaeb15c1dbc7cd0265d52bcc5c3dbc443a6f44a869",
+    "core/motionguard_core/staged_models.py": "d17e1a70013bc52d1e2a5401f51e8592bfd6e83521f40e74f97f903b7bad1d64",
+    "config/thresholds.yaml": "2363a42f2bf42bf29f58fd1b1698bd352450e57495198eac53383514fb0f222a",
+    "install.py": "83ba1237c7d5757a2b3526b8d5ec0efd642651012f41abff536e8f4c88078230",
+    "requirements.txt": "424c69b265acf310edb1e11358b1760b8dbedc3e404d219c257831d5e1b026ed",
+    "RUNTIME.md": "c30981b4c3a6caefbf698fd3050fbf0fc5ca94b3eaa81411db89e1f927bba579"
+  }
+}

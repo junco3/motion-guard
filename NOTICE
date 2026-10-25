@@ -1,0 +1,13 @@
+MotionGuard
+Application copyright holder: TBD by owner (no third-party author identity inferred).
+Original application code: Apache License 2.0; see LICENSE.
+
+Third-party workflows, model weights and media retain their own terms.
+ComfyUI-LTXVideo: Lightricks; pinned revision and license in
+workflows/upstream/source.json and docs/LTXVideo-LICENSE.txt.
+LTX model family: Lightricks community model licenses; see docs/licenses.md.
+Quaternius Universal Base Characters: CC0; notice in
+workflows/T1/inputs/animation-license.txt.
+rtmlib and MMPose code: Apache-2.0. Pose checkpoints are not redistributed.
+Generated representative character provenance: TBD by owner; no public
+redistribution clearance is asserted. See docs/asset-provenance.json.

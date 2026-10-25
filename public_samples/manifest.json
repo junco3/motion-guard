@@ -1,0 +1,15 @@
+{
+  "clip": "PickUp_Table",
+  "frames": 97,
+  "fps": 24,
+  "prompt": "A single humanoid training mannequin reaches one hand forward, bends its upper body slightly, then brings the hand back and returns upright. Follow the supplied skeletal motion frame by frame, preserving its exact timing, hand trajectory and character appearance. Fixed front camera, entire body visible, plain gray background. No additional objects or furniture.",
+  "source_model_sha256": "69591853d817488edaa8fd9bf8fc1d821eaeaf789f8627b3cd23b41c4ed67997",
+  "files": {
+    "character.png": "56b1cb07c7e06c57084ed278081f513417d0e60e16dc1c9be00294d061a1c8d8",
+    "reference.mp4": "d29eddad942ca5b9f82a844d768c0be11583cf853d2ac1481f20c57a2ccea735",
+    "generated.mp4": "c0e9bc9493b942197bf5c4c462647786530d303d9202d8fb810962ae07ef00a7"
+  },
+  "provenance": "Existing separate Platform integration; not a newly generated sample",
+  "input_rights": "Quaternius CC0 mannequin and rendered reference",
+  "output": "AI-generated LTX sample; no model weights redistributed"
+}

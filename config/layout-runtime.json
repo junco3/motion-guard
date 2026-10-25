@@ -1,0 +1,11 @@
+{
+  "enabled": false,
+  "generator_mode": "layout",
+  "build_id": null,
+  "release_id": null,
+  "gpu_class": "h100-sxm",
+  "max_frames": 97,
+  "template_sha256": "b5f3abbb22cc4c9b3a641e874955652e8e75c816fba1d856a0a87a0af7e1b607",
+  "stage_audit_code_sha256": "b940a470c0bde3f28cdb934ba3ec1a39728645f4de731360836be01f5b3cbeec",
+  "validation_status": "Account configuration required; not provisioned"
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "Representative 10-second review video character, not the CC0 public sample",
+  "character_sha256": "5236d70359120dbcebaf6801824ff63b5ce050a5ec2d8b789127897761d168fd",
+  "creation_tool": "Image generation tool built into OpenAI Codex (image_gen.imagegen, completion event image_gen.generation)",
+  "model": "PNG C2PA metadata: softwareAgent ChatGPT / gpt-image; exact model version not recorded",
+  "creation_date": "2026-10-21T12:49:11Z",
+  "applicable_terms": "OpenAI Terms of Use (https://openai.com/policies/terms-of-use/), Service Terms and Usage Policies in force at creation",
+  "open_weights": false,
+  "public_redistribution_cleared": false,
+  "source_zip_includes_character": false,
+  "motion_source": "Quaternius Universal Base Characters, CC0; derived sequence",
+  "provenance_source": "Codex conversation cl11 answer of 2026-10-22 (marker CL-1022-1516-1) and reports/v2-remediation/character-source-evidence.json",
+  "note": "A file hash establishes identity, not permission. The image is AI-generated and is not CC0 or public domain."
+}

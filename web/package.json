@@ -1,0 +1,11 @@
+{
+  "name": "motion-guard-director",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node serve.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}

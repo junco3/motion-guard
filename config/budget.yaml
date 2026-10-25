@@ -1,0 +1,6 @@
+{
+  "allow_paid_execution": false,
+  "max_total_credits": 1000,
+  "cancel_after_submission_seconds": 600,
+  "additional_purchase_allowed": false
+}

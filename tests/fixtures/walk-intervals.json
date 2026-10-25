@@ -1,0 +1,45 @@
+{
+  "source": "Existing calibration walk, interval fields only; no inputs or personal paths",
+  "failures": [
+    {
+      "type": "WRONG_POSE",
+      "t_start_s": 0.041666666666666664,
+      "t_end_s": 0.16666666666666666
+    },
+    {
+      "type": "WRONG_POSE",
+      "t_start_s": 0.5833333333333334,
+      "t_end_s": 0.75
+    },
+    {
+      "type": "WRONG_POSE",
+      "t_start_s": 0.7916666666666666,
+      "t_end_s": 0.8333333333333334
+    },
+    {
+      "type": "WRONG_POSE",
+      "t_start_s": 1.5833333333333333,
+      "t_end_s": 1.75
+    },
+    {
+      "type": "WRONG_POSE",
+      "t_start_s": 2.125,
+      "t_end_s": 3.4166666666666665
+    },
+    {
+      "type": "WRONG_POSE",
+      "t_start_s": 3.4583333333333335,
+      "t_end_s": 4.041666666666667
+    },
+    {
+      "type": "MISSING_MOTION",
+      "t_start_s": 2.75,
+      "t_end_s": 3.0416666666666665
+    },
+    {
+      "type": "MISSING_MOTION",
+      "t_start_s": 3.4583333333333335,
+      "t_end_s": 3.9583333333333335
+    }
+  ]
+}

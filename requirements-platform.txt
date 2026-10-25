@@ -1,0 +1,2 @@
+comfy-cli==1.22.0
+PyYAML==6.0.3

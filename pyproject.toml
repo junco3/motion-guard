@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "motion-guard"
+version = "0.0.1"
+requires-python = ">=3.11"
+dependencies = ["jsonschema>=4.26,<5", "numpy==2.4.6"]
+[project.optional-dependencies]
+pose = ["rtmlib==0.0.16", "onnxruntime==1.31.0", "opencv-python-headless==5.0.0.93"]
+[project.scripts]
+mg = "motionguard_core.cli:main"
+[tool.setuptools.packages.find]
+where = ["core"]
+[tool.pytest.ini_options]
+pythonpath = ["core"]
+testpaths = ["tests"]
